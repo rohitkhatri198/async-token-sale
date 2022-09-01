@@ -6,9 +6,9 @@
     padding-top: 25px;
     ul {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
-      padding: 20px 61px 20px 418px;
+      margin-left: 19rem;
       li {
         list-style: none;
         font-style: normal;
@@ -19,6 +19,7 @@
         letter-spacing: -0.01em;
         color: #ffffff;
         font-family: "Monomaniac";
+        padding: 0 20px;
       }
     }
     .walletbtn {
