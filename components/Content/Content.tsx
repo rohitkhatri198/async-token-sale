@@ -23,15 +23,15 @@ const Content = () => {
         <div className={`${s.timerBox}`}>
           <h1 className={`${s.tokenHeading}`}>Token Sale Ends In:</h1>
           <div className={`${s.fourBoxes}`}>
-            <div className={`${s.box}`}>
+            <div className={`${s.box} ${s.colon}`}>
               <h1>15</h1>
               <p>Days</p>
             </div>
-            <div className={`${s.box}`}>
+            <div className={`${s.box}  ${s.colon}`}>
               <h1>07</h1>
               <p>Hours</p>
             </div>
-            <div className={`${s.box}`}>
+            <div className={`${s.box}  ${s.colon}`}>
               <h1>15</h1>
               <p>Mins</p>
             </div>

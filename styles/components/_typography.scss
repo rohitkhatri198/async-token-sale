@@ -65,7 +65,12 @@
 //   font-weight: 700;
 //   font-display: swap;
 // }
-
+@font-face {
+  font-family: "Monomaniac";
+  src: url("/fonts/monomaniac-one-regular.woff2") format("woff2");
+  // font-weight: 700;
+  // font-display: swap;
+}
 .default-heading {
   font-size: 2.875rem;
   // font-weight: 700;

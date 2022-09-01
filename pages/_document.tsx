@@ -37,6 +37,7 @@ class MyDocument extends Document {
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
           />
+
           <meta name="description" content={AppConstant.meta.description} />
           <meta property="og:title" content={AppConstant.meta.title} />
           <meta property="og:url" content={AppConstant.meta.url} />
