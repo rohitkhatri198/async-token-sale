@@ -1,7 +1,7 @@
 export const AppConstant = {
   meta: {
     url: "",
-    title: "Title",
+    title: "Async",
     description: "",
     image: "",
   },

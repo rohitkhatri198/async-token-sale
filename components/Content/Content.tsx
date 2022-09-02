@@ -27,13 +27,13 @@ const Content = () => {
               <h1>15</h1>
               <p>Days</p>
             </div>
-            <div className={`${s.box}  ${s.colon}`}>
+            <div className={`${s.box} ${s.colon} `}>
               <h1>07</h1>
               <p>Hours</p>
             </div>
-            <div className={`${s.box}  ${s.colon}`}>
+            <div className={`${s.box} ${s.colon}`}>
               <h1>15</h1>
-              <p>Mins</p>
+              <p>Minutes</p>
             </div>
             <div className={`${s.box}`}>
               <h1>15</h1>
@@ -52,20 +52,18 @@ const Content = () => {
           {/*outerBar*/}
           <div className={`${s.cap}`}>
             <div className={`${s.capText}`}>
-              <p>Soft Cap :</p>
-              <p>Min transaction amount :</p>
-              <p>Target :</p>
+              <p>Total Allocation Tokens:</p>
+              <p>Min transaction amount:</p>
             </div>
             {/*capText*/}
             <div className={`${s.capNum}`}>
-              <p>200 000 USD</p>
-              <p>100 000 USD</p>
-              <p>35 000 000 USD</p>
+              <p>50,000,000 USD</p>
+              <p>500 USD</p>
             </div>
             {/*capNum*/}
           </div>
           {/*cap*/}
-          <button className={`${s.sale}`}>JOIN TOKEN SALE</button>
+          <div className={`${s.sale}`}>JOIN TOKEN SALE</div>
         </div>
         {/*timerbox*/}
       </div>

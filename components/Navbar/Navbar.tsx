@@ -16,7 +16,7 @@ const Navbar = () => {
           <li>contact us</li>
           <li>get $async</li>
           <li>open app</li>
-          <button className={`${s.walletbtn}`}>Connect wallet</button>
+          {/* <button className={`${s.walletbtn}`}>Connect wallet</button> */}
         </ul>
       </nav>
     </div>

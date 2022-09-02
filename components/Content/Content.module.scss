@@ -43,6 +43,7 @@
       color: #fff;
       padding: 14px 18px;
       font-style: normal;
+      font-family: "Source Sans Pro", sans-serif;
       font-weight: 700;
       font-size: 14px;
       line-height: 120%;
@@ -57,6 +58,7 @@
         -3px 3px 0px #ffffff, -2px 2px 0px #ffffff, -1px 1px 0px #ffffff;
       padding: 14px 18px;
       font-style: normal;
+      font-family: "Source Sans Pro", sans-serif;
       font-weight: 700;
       font-size: 14px;
       line-height: 120%;
@@ -75,7 +77,7 @@
     text-align: left;
 
     .tokenHeading {
-      font-style: normal;
+      font-family: "Monomaniac";
       font-weight: 400;
       font-size: 35px;
       letter-spacing: -0.01em;
@@ -85,7 +87,7 @@
     .fourBoxes {
       display: flex;
       justify-content: space-between;
-      padding: 0 20px 0;
+      padding: 0 15px 0;
       p {
         font-weight: 700;
         font-size: 50px;
@@ -109,6 +111,7 @@
           color: #000000;
           margin-bottom: unset;
           margin-top: 1rem;
+          padding-right: 7px;
         }
         p {
           color: #3094f2;
@@ -124,10 +127,10 @@
           content: ":";
           position: absolute;
           font-size: 50px;
-          color: #fff;
-          // background-color: red;
-          top: 18px;
-          left: 91px;
+          color: #d9d9d9;
+          top: 9px;
+          left: 95px;
+          font-family: Poppins;
         }
       }
     }
@@ -136,6 +139,7 @@
       margin-top: 20px;
       padding-left: 34px;
       padding-bottom: 10px;
+      font-family: "Source Sans Pro", sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
@@ -145,6 +149,7 @@
     }
     .funded {
       background: #fff;
+      font-family: "Source Sans Pro", sans-serif;
       font-weight: 700;
       font-size: 14px;
       line-height: 120%;
@@ -154,6 +159,7 @@
       width: 228px;
       margin: 10px 0 0 163px;
       border-radius: 5px;
+      text-align: center;
     }
     .square {
       height: 16.05px;
@@ -196,6 +202,7 @@
       margin: 65px 19px 20px 19px;
       .capText {
         font-style: normal;
+        font-family: "Source Sans Pro", sans-serif;
         font-weight: 700;
         font-size: 16px;
         line-height: 81%;
@@ -205,6 +212,7 @@
       }
       .capNum {
         font-style: normal;
+        font-family: "Source Sans Pro", sans-serif;
         font-weight: 700;
         font-size: 16px;
         line-height: 81%;
@@ -214,19 +222,19 @@
       }
     }
     .sale {
-      background: #3094f2;
-      border: 3px solid #1c5e9d;
-      box-shadow: -5px 5px 0px #1c5e9d, -4px 4px 0px #1c5e9d,
-        -3px 3px 0px #1c5e9d, -2px 2px 0px #1c5e9d, -1px 1px 0px #1c5e9d;
+      background: linear-gradient(180deg, #2a82d7 0%, #1c5e9d 100%);
+      border-radius: 5px;
       border-radius: 10px;
+      font-family: "Monomaniac";
       font-style: normal;
-      font-weight: 700;
-      font-size: 16px;
+      font-weight: 500;
+      font-size: 19px;
       line-height: 120%;
       color: #fff;
       letter-spacing: -0.01em;
       text-align: center;
-      padding: 14px 146px;
+      width: 26rem;
+      padding: 14px 18px;
       margin: 10px 0 30px 24px;
     }
   }
