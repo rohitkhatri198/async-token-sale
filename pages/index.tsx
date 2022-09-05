@@ -20,8 +20,8 @@ const Home: NextPage = () => {
       </Head>
       <Navbar />
       <Content />
-      <BuyAsync />
-      <Timerbox />
+      {/* <BuyAsync />
+      <Timerbox /> */}
       {/* <States /> */}
       {/* <Counter /> */}
       {/* <Submitnav /> */}

@@ -1,11 +1,14 @@
-import React, { useState } from "react";
+import React, { FC, useState } from "react";
 import s from "./Timerbox.module.scss";
-const Timerbox = () => {
-  const [isVisible, setVisibility] = useState(false);
 
+interface Props {
+  onClicked: any;
+}
+
+const Timerbox: FC<Props> = ({ onClicked }) => {
   return (
     <div className={`${s.container}`}>
-      <div className={`${isVisible ? s.timerBox : ""}`}>
+      <div className={`${s.timerBox}`}>
         <h1 className={`${s.tokenHeading}`}>Token Sale Ends In:</h1>
         <div className={`${s.fourBoxes}`}>
           <div className={`${s.box} ${s.colon}`}>
@@ -47,12 +50,11 @@ const Timerbox = () => {
           </div>
           {/*capNum*/}
         </div>
-        {/*cap*/}
+
         <div
           className={`${s.sale}`}
           onClick={() => {
-            setVisibility(true);
-            console.log("Visibility: " + isVisible);
+            onClicked();
           }}
         >
           JOIN TOKEN SALE
