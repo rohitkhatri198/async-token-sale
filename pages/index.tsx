@@ -5,6 +5,7 @@ import Counter from "@components/Counter";
 import Navbar from "@components/Navbar";
 import States from "@components/States";
 import Submitnav from "@components/Submitnav";
+import Timerbox from "@components/Timerbox";
 import { AppConstant } from "constant/AppConstant";
 import type { NextPage } from "next";
 import Head from "next/head";
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
       <Navbar />
       <Content />
       <BuyAsync />
+      <Timerbox />
       {/* <States /> */}
       {/* <Counter /> */}
       {/* <Submitnav /> */}
