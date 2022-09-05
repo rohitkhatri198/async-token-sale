@@ -1,0 +1,17 @@
+@import "/styles/variables.scss";
+
+.container {
+  background: #fff;
+  text-align: center;
+  .heading {
+    color: #000;
+    font-size: 30px;
+  }
+  .btn {
+    background: green;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    border: 1px solid red;
+  }
+}

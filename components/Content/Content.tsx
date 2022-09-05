@@ -1,9 +1,11 @@
 /* eslint-disable jsx-a11y/alt-text */
-import FC from "react";
+import FC, { useState } from "react";
 import s from "./Content.module.scss";
 import Image from "next/image";
 
 const Content = () => {
+  const [isVisible, setVisibility] = useState(false);
+
   return (
     <div className={`${s.container}`}>
       <div className={`${s.first}`}>
@@ -20,7 +22,7 @@ const Content = () => {
       </div>
       {/*first*/}
       <div className={`${s.second}`}>
-        <div className={`${s.timerBox}`}>
+        <div className={`${isVisible ? s.timerBox : ""}`}>
           <h1 className={`${s.tokenHeading}`}>Token Sale Ends In:</h1>
           <div className={`${s.fourBoxes}`}>
             <div className={`${s.box} ${s.colon}`}>
@@ -63,7 +65,15 @@ const Content = () => {
             {/*capNum*/}
           </div>
           {/*cap*/}
-          <div className={`${s.sale}`}>JOIN TOKEN SALE</div>
+          <div
+            className={`${s.sale}`}
+            onClick={() => {
+              setVisibility(true);
+              console.log("Visibility: " + isVisible);
+            }}
+          >
+            JOIN TOKEN SALE
+          </div>
         </div>
         {/*timerbox*/}
       </div>

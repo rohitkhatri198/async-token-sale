@@ -1,0 +1,169 @@
+@import "/styles/variables.scss";
+
+.timerBox {
+  border: 1px solid #3094f2;
+  border-radius: 20px;
+  width: 485px;
+  text-align: left;
+
+  .tokenHeading {
+    font-family: "Monomaniac";
+    font-weight: 400;
+    font-size: 35px;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+    padding: 36px 30px 41px;
+  }
+  .box1 {
+    width: 414px;
+    background: #5a5a5a;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem 2rem;
+    .data1 {
+      font-family: "Monomaniac";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 120%;
+      letter-spacing: -0.01em;
+      margin: unset;
+      padding: 14px 12px 14px 0;
+      text-align: center;
+      margin-left: 2rem;
+    }
+    .data2 {
+      font-family: "Monomaniac";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 120%;
+      letter-spacing: -0.01em;
+      margin: unset;
+      padding: 14px 12px 14px 0;
+      text-align: center;
+    }
+
+    .innerBox {
+      width: 115px;
+      background: #3094f2;
+      font-family: "Monomaniac One";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 120%;
+      letter-spacing: -0.01em;
+      color: #ffffff;
+      border-radius: 5px;
+    }
+  }
+  .saleEnd {
+    color: #fff;
+    margin-top: 20px;
+    padding-left: 34px;
+    padding-bottom: 10px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2.5rem;
+  }
+  .funded {
+    background: #fff;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    color: #000000;
+    padding: 10px 10px;
+    width: 228px;
+    margin: 10px 0 0 163px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .square {
+    height: 16.05px;
+    width: 22.05px;
+    background: #fff;
+    border-radius: 1px;
+    transform: matrix(0.71, -0.6, 0.83, 0.71, 334, -10);
+  }
+  .outerBar {
+    position: relative;
+    background: #d9d9d9;
+    width: 420px;
+    height: 35px;
+    border-radius: 40px;
+    margin: 1px 30px;
+    .innerBar {
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      background: linear-gradient(
+        180deg,
+        rgba(48, 148, 242, 0.5) 0%,
+        rgba(28, 94, 157, 0.5) 100%
+      );
+      border-radius: 40px;
+      height: 25px;
+      width: 408px;
+      .blueBar {
+        position: absolute;
+        height: 25px;
+        width: 317px;
+        background: linear-gradient(180deg, #3094f2 0%, #1c5e9d 100%);
+        border-radius: 40px;
+      }
+    }
+  }
+  .cap {
+    display: flex;
+    justify-content: flex-start;
+    margin: 65px 19px 20px 19px;
+    .capText {
+      font-style: normal;
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 81%;
+      letter-spacing: -0.01em;
+      color: #c7c7c7;
+      padding: 20px 15px 10px 10px;
+    }
+    .capNum {
+      font-style: normal;
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 81%;
+      letter-spacing: -0.01em;
+      color: #3094f2;
+      padding: 20px 0px 0 2px;
+    }
+  }
+  .sale {
+    background: linear-gradient(180deg, #2a82d7 0%, #1c5e9d 100%);
+    border-radius: 5px;
+    border-radius: 10px;
+    font-family: "Monomaniac";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 120%;
+    color: #fff;
+    letter-spacing: -0.01em;
+    text-align: center;
+    width: 26rem;
+    padding: 14px 18px;
+    margin: 10px 0 30px 24px;
+  }
+}

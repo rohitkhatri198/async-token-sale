@@ -1,6 +1,10 @@
+import BuyAsync from "@components/BuyAsync";
 import { Footer, Header } from "@components/common";
 import Content from "@components/Content";
+import Counter from "@components/Counter";
 import Navbar from "@components/Navbar";
+import States from "@components/States";
+import Submitnav from "@components/Submitnav";
 import { AppConstant } from "constant/AppConstant";
 import type { NextPage } from "next";
 import Head from "next/head";
@@ -15,6 +19,10 @@ const Home: NextPage = () => {
       </Head>
       <Navbar />
       <Content />
+      <BuyAsync />
+      {/* <States /> */}
+      {/* <Counter /> */}
+      {/* <Submitnav /> */}
     </Layout>
   );
 };
