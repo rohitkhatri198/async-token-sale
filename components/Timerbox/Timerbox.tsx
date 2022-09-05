@@ -4,7 +4,7 @@ import s from "./Timerbox.module.scss";
 interface Props {
   onClicked: any;
 }
-
+//functioanality added
 const Timerbox: FC<Props> = ({ onClicked }) => {
   return (
     <div className={`${s.container}`}>
