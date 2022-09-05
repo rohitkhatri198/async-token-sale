@@ -1,6 +1,6 @@
 import React, { FC, useState } from "react";
 import s from "./Timerbox.module.scss";
-
+import Countdown from "react-countdown";
 interface Props {
   onClicked: any;
 }
@@ -11,22 +11,7 @@ const Timerbox: FC<Props> = ({ onClicked }) => {
       <div className={`${s.timerBox}`}>
         <h1 className={`${s.tokenHeading}`}>Token Sale Ends In:</h1>
         <div className={`${s.fourBoxes}`}>
-          <div className={`${s.box} ${s.colon}`}>
-            <h1>15</h1>
-            <p>Days</p>
-          </div>
-          <div className={`${s.box} ${s.colon} `}>
-            <h1>07</h1>
-            <p>Hours</p>
-          </div>
-          <div className={`${s.box} ${s.colon}`}>
-            <h1>15</h1>
-            <p>Minutes</p>
-          </div>
-          <div className={`${s.box}`}>
-            <h1>15</h1>
-            <p>Seconds</p>
-          </div>
+          <Countdown date={Date.now() + 1000000009} />
         </div>
         {/*fourboxes*/}
         <p className={`${s.saleEnd}`}>TOKEN SALE ENDS SEPTEMBER 12, 2022</p>
