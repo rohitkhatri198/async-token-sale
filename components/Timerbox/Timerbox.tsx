@@ -31,13 +31,13 @@ const Timerbox: FC<Props> = ({ onClicked }) => {
 
       if (distance < 0) {
         // stop timer
-        clearInterval(interval.current);
+        // clearInterval(interval.current);
       } else {
-        update timer
-        SetTimerDays(days);
-        SetTimerHours(hours);
-        SetTimerMinutes(minutes);
-        SetTimerSeconds(seconds);
+        // update timer
+        SetTimerDays("days");
+        SetTimerHours("hours");
+        SetTimerMinutes("minutes");
+        SetTimerSeconds("seconds");
       }
     }, 1000);
   };
