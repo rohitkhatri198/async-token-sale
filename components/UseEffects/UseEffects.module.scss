@@ -1,0 +1,21 @@
+@import "./styles/variables.scss";
+
+.container {
+  background: rgb(40, 40, 95);
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  .num {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+  .btn {
+    text-align: center;
+    background: blue;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+  }
+}

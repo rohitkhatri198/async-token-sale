@@ -1,0 +1,192 @@
+@import "/styles/variables.scss";
+
+.timerBox2 {
+  border: 1px solid #3094f2;
+  background: linear-gradient(
+    156.53deg,
+    #3164f0 14.25%,
+    #7a60ff 54.32%,
+    #7022ff 83.77%
+  );
+  border: 1px solid #3094f2;
+  border-radius: 20px;
+  width: 485px;
+  text-align: left;
+  .timeContent {
+    margin: 2rem;
+    margin: 1rem 1rem 2rem;
+    display: block;
+    justify-content: center;
+  }
+
+  .tokenHeading {
+    font-family: "Monomaniac";
+    font-weight: 400;
+    font-size: 35px;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+    padding: 36px 8px 41px;
+  }
+  .fourBoxes {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 0;
+    // background: red;
+    p {
+      font-weight: 700;
+      font-size: 50px;
+    }
+
+    .box {
+      width: 88px;
+      background: #ffffff;
+      box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+      margin: auto;
+      position: relative;
+      h1 {
+        text-align: center;
+        font-style: normal;
+        font-family: "Monomaniac";
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 120%;
+        letter-spacing: -0.01em;
+        color: #000000;
+        margin-bottom: unset;
+        margin-top: 1rem;
+        padding-right: 7px;
+      }
+      p {
+        color: #3094f2;
+        font-family: "Monomaniac";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+      }
+    }
+    .colon {
+      &::after {
+        content: ":";
+        position: absolute;
+        font-size: 47px;
+        color: #fff;
+        top: 15px;
+        left: 90px;
+        font-family: Poppins;
+      }
+    }
+  }
+  .saleEnd {
+    color: #fff;
+    margin-top: 20px;
+    padding-left: 34px;
+    padding-bottom: 10px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+  }
+  .funded {
+    background: #fff;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    color: #000000;
+    padding: 10px 10px;
+    width: 228px;
+    margin: 10px 0 0 163px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .square {
+    height: 16.05px;
+    width: 22.05px;
+    background: #fff;
+    border-radius: 1px;
+    transform: matrix(0.71, -0.6, 0.83, 0.71, 334, -10);
+  }
+  .outerBar {
+    position: relative;
+    background: #fff;
+    width: 420px;
+    height: 35px;
+    border-radius: 40px;
+    margin: 0 auto;
+    .innerBar {
+      position: absolute;
+      top: 5px;
+      left: 6px;
+      background: linear-gradient(
+        180deg,
+        rgba(230, 50, 42, 0.5) -65.6%,
+        rgba(239, 112, 31, 0.5) 26.46%,
+        rgba(255, 222, 13, 0.5) 176.65%
+      );
+      border-radius: 40px;
+      height: 25px;
+      width: 408px;
+      .blueBar {
+        position: absolute;
+        height: 25px;
+        width: 317px;
+        background: linear-gradient(
+          180deg,
+          #e6322a -65.6%,
+          #ef701f 26.46%,
+          #ffde0d 176.65%
+        );
+        border-radius: 40px;
+      }
+    }
+  }
+  .cap {
+    display: flex;
+    justify-content: flex-start;
+    // margin: 65px 19px 20px 19px;
+
+    padding: 65px 19px 20px 19px;
+    .capText {
+      font-style: normal;
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 81%;
+      letter-spacing: -0.01em;
+      color: #fff;
+      padding: 20px 15px 10px 10px;
+    }
+    .capNum {
+      font-style: normal;
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 81%;
+      letter-spacing: -0.01em;
+      color: #fff;
+      padding: 20px 0px 0 2px;
+    }
+  }
+  .sale {
+    background: #ffffff;
+    border-radius: 34px;
+    font-family: "Monomaniac";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 120%;
+    color: #3094f2;
+    letter-spacing: -0.01em;
+    text-align: center;
+    width: 26rem;
+    padding: 14px 18px;
+    // margin: 10px 0 30px 24px;
+    margin: 0 auto;
+  }
+}
